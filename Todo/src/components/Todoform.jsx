@@ -1,5 +1,5 @@
 import  { useState } from 'react'
-import { useTodo } from '../contexts/TodoContext.js';
+import { useTodo } from '../Context/TodoContext.js';
 
 function TodoForm() {
     const [todo, setTodo] = useState("")
